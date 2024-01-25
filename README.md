@@ -2,13 +2,18 @@
 This is the **PyTorch re-implementation** of our ITSC2023 paper: 
 [The Effect of Camera Data Degradation Factors on Panoptic Segmentation for Automated Driving]([https://ieeexplore.ieee.org/abstract/document/10103198](https://wrap.warwick.ac.uk/177340/1/WRAP-effect-camera-data-degradation-factors-panoptic-segmentation-automated-driving-2023.pdf)https://wrap.warwick.ac.uk/177340/1/WRAP-effect-camera-data-degradation-factors-panoptic-segmentation-automated-driving-2023.pdf). 
 
+<img src="doc/D-Cityscapes.png" alt="Illustration of D-Cityscapes" width="700"/>
+![Illustrating of the degradation models. ](doc/adverse_model.png)
+
 - In this paper, we consider 5 categories of camera data degradation models, namely light level, adverse weather, internal sensor noises, motion blur and compression artefacts. 
 - Based on 11 models and multiple degradation levels, we synthesize an augmented version of Cityscape, named the **Degraded-Cityscapes (D-Cityscapes)**. Moreover, for the environmental light level, we propose a new synthetic method with generative adversarial learning and zero-reference deep curve estimation to simulate 3 degraded light levels including low light, night light with glare, and extreme light.
 - To compare the effect of the implemented camera degradation factors, we run extensive tests using a panoptic segmentation network (i.e. EfficientPS), quantifying how the performance metrics vary when the data are degraded.
 
+![Illustrating of the degradation data generation framework. ](doc/framework.png)
+
 ## Benchmarking Results
 ### Visual Results
-
+![Illustrating of the visual results. ](doc/results.png)
 ### Quantity Results
 
 ## Requirements
