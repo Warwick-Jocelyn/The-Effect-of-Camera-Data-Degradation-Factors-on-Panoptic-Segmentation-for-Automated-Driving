@@ -1,11 +1,10 @@
 # The-Effect-of-Camera-Data-Degradation-Factors-on-Panoptic-Segmentation-for-Automated-Driving
-Codes for the “The Effect of Camera Data Degradation Factors on Panoptic Segmentation for Automated Driving”（ITSC2023）
-
-In this paper, we consider 5 categories of camera data degradation models, namely light level, adverse weather, internal sensor noises, motion blur and compression artefacts. These 5 categories include 11 potential degradation models, with different degradation levels. Based on these 11 models and multiple degradation levels, we synthesize an augmented version of Cityscape, named the **Degraded-Cityscapes (D-Cityscapes)**. Moreover, for the environmental light level, we propose a new synthetic method with generative adversarial learning and zero-reference deep curve estimation to simulate 3 degraded light levels including low light, night light with glare, and extreme light. To compare the effect of the implemented camera degradation factors, we run extensive tests using a panoptic segmentation network (i.e. EfficientPS), quantifying how the performance metrics vary when the data are degraded. Based on the evaluation results, we demonstrate that extreme snow, blur, and light are the most threatening conditions for panoptic segmentation in AAD, while EfficientPS can cope well with light fog, compression, and blur, which can provide insights for future research directions.
-
 This is the **PyTorch re-implementation** of our ITSC2023 paper: 
 [The Effect of Camera Data Degradation Factors on Panoptic Segmentation for Automated Driving]([https://ieeexplore.ieee.org/abstract/document/10103198](https://wrap.warwick.ac.uk/177340/1/WRAP-effect-camera-data-degradation-factors-panoptic-segmentation-automated-driving-2023.pdf)https://wrap.warwick.ac.uk/177340/1/WRAP-effect-camera-data-degradation-factors-panoptic-segmentation-automated-driving-2023.pdf). 
-Also our Arxhiv paper: 
+
+- In this paper, we consider 5 categories of camera data degradation models, namely light level, adverse weather, internal sensor noises, motion blur and compression artefacts. 
+- Based on 11 models and multiple degradation levels, we synthesize an augmented version of Cityscape, named the **Degraded-Cityscapes (D-Cityscapes)**. Moreover, for the environmental light level, we propose a new synthetic method with generative adversarial learning and zero-reference deep curve estimation to simulate 3 degraded light levels including low light, night light with glare, and extreme light.
+- To compare the effect of the implemented camera degradation factors, we run extensive tests using a panoptic segmentation network (i.e. EfficientPS), quantifying how the performance metrics vary when the data are degraded.
 
 ## Benchmarking Results
 ### Visual Results
