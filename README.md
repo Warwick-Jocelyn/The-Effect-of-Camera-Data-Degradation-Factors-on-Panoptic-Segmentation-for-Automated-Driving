@@ -1,6 +1,6 @@
 # The-Effect-of-Camera-Data-Degradation-Factors-on-Panoptic-Segmentation-for-Automated-Driving
 This is the **PyTorch re-implementation** of our ITSC2023 paper: 
-The Effect of Camera Data Degradation Factors on Panoptic Segmentation for Automated Driving, [link]([https://ieeexplore.ieee.org/abstract/document/10421803]). 
+The Effect of Camera Data Degradation Factors on Panoptic Segmentation for Automated Driving, [link](https://ieeexplore.ieee.org/abstract/document/10421803). 
 
 <img src="doc/D-Cityscapes.png" alt="Illustration of D-Cityscapes" width="700"/>
 ![Illustrating of the degradation models. ](doc/adverse_model.png)
@@ -19,7 +19,7 @@ The Effect of Camera Data Degradation Factors on Panoptic Segmentation for Autom
 ## Requirements
 Here, we show examples of using the EfficeintPS for the Cityscape dataset. 
 - Requirement for EfficientPS is from [here](https://github.com/DeepSceneSeg/EfficientPS#system-requirements).
-- Download the Cityscape validation [here]([https://mega.nz/folder/tS8QSaxL#5yhdfe9ogpKk18dRwX7WCw](https://www.cityscapes-dataset.com/downloads/)https://www.cityscapes-dataset.com/downloads/).
+- Download the Cityscape validation [here](https://mega.nz/folder/tS8QSaxL#5yhdfe9ogpKk18dRwX7WCw](https://www.cityscapes-dataset.com/downloads/)https://www.cityscapes-dataset.com/downloads/).
 
 
 ## Citing SAC
