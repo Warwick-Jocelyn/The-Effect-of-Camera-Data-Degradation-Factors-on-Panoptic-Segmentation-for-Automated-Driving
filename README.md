@@ -1,6 +1,6 @@
 # The-Effect-of-Camera-Data-Degradation-Factors-on-Panoptic-Segmentation-for-Automated-Driving
 This is the **PyTorch re-implementation** of our ITSC2023 paper: 
-The Effect of Camera Data Degradation Factors on Panoptic Segmentation for Automated Driving, [link](https://wrap.warwick.ac.uk/177340/1/WRAP-effect-camera-data-degradation-factors-panoptic-segmentation-automated-driving-2023.pdf). 
+The Effect of Camera Data Degradation Factors on Panoptic Segmentation for Automated Driving, [link]([https://wrap.warwick.ac.uk/177340/1/WRAP-effect-camera-data-degradation-factors-panoptic-segmentation-automated-driving-2023.pdf](https://ieeexplore.ieee.org/abstract/document/10421803)). 
 
 <img src="doc/D-Cityscapes.png" alt="Illustration of D-Cityscapes" width="700"/>
 ![Illustrating of the degradation models. ](doc/adverse_model.png)
